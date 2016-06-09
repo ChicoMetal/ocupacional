@@ -49,8 +49,10 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'ottsinc_soie';
-$db['default']['password'] = 'S88quPbj70';
+//$db['default']['username'] = 'ottsinc_soie';
+$db['default']['username'] = 'root';
+//$db['default']['password'] = 'S88quPbj70';
+$db['default']['password'] = '';
 $db['default']['database'] = 'ottsinc_soie';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
